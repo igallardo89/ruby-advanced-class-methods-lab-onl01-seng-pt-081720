@@ -26,8 +26,8 @@ class Song
      def self.create_by_name(x)
        song = self.new
        song.name = name
-       
-       
+       song.save
+       song
     end
     
     def self.alphabetical(name)
