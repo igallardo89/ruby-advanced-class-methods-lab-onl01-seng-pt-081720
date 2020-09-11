@@ -16,19 +16,22 @@ class Song
    end 
    
    def self.new_by_name(name)
-     
-     song = self.new
+      song = self.new
      song.name = name 
      song.save
      song
    end 
      
-     def self.create_by_name(x)
+     def self.create_by_name(name)
        song = self.new
        song.name = name
        song.save
        song
     end
+    
+     def self.find_by_name(name)
+      self.all.find {|person| person.name == name}
+    end 
     
     def self.alphabetical(name)
       self.sort = a
