@@ -26,6 +26,8 @@ class Song
      def self.create_by_name(x)
     end
     
+    def self.alphabetical(name)
+    
     def self.find_by_name(name)
       self.all.find {|person| person.name == name}
     end 
