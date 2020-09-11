@@ -15,16 +15,17 @@ class Song
     song
    end 
    
-   def self.new_by_name(n)
+   def self.new_by_name(name)
      
      song = self.new
-     song.name = n 
+     song.name = name 
      song.save
      song
    end 
      
      def self.create_by_name(x)
-       s
+       song = self.new
+       song.name = name
        
        
     end
