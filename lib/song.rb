@@ -49,6 +49,8 @@ class Song
     
     def self.create_from_file_name(name, artist)
       
+      self. =
+      
       
       
       
