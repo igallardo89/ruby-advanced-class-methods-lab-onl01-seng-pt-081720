@@ -40,17 +40,19 @@ class Song
         self.create_by_name(name)
       end 
     end
-        
-      
     
-    def self.alphabetical(name)
+    def self.alphabetical
+      all.sort 
+      
+    end 
+    
+    def self.create_from_file_name
       
       
       
     end 
-    
-  
-    
+       
+   
     def self.destroy_all
       self.all.clear
     end
