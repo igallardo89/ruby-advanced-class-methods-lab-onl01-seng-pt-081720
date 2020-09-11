@@ -27,7 +27,7 @@ class Song
     end
     
     def self.alphabetical(name)
-      self.each do {|x| a <=> b}
+      self.sort = a
       
       
     end 
