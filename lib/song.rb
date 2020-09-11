@@ -43,14 +43,10 @@ class Song
     
     def self.alphabetical
         @@all.sort { |a,b| a.name <=> b. name }
-      
     end 
     
     
     def self.create_from_file_name(name, artist)
-      
-     
-      
       
       
       
