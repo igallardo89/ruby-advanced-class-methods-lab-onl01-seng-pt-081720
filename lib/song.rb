@@ -23,6 +23,11 @@ class Song
      song
    end 
      
+     def self.create_by_name(x)
+       
+      song.name = x
+       
+    end
      
 end
 
