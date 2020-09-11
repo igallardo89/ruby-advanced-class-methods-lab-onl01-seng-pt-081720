@@ -47,7 +47,7 @@ class Song
     
     
     def self.new_fron_filename(filename)
-      s_filename = filename.chomp(".mp3").split(" - ")
+      s_filename = filename.chop.chop.chop.cop.split(" - ")
       song = Song.new
       song.name = s_filename[1]
       song.artist_name = s_filename[0]
