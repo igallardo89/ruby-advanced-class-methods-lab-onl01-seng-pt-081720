@@ -46,7 +46,10 @@ class Song
     end 
     
     
-    def self.create_from_file_name(name, artist)
+    def self.new_fron_filename(filename)
+      row =filename.split (" ")
+      name = data [0]
+      artist = data [1]
       
       
       
