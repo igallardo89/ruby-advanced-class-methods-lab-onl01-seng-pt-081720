@@ -51,10 +51,7 @@ class Song
       name = data [0]
       artist = data [1]
     end 
-      
-      
-      
-    end 
+
        
    
     def self.destroy_all
