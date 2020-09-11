@@ -27,6 +27,9 @@ class Song
     end
     
     def self.alphabetical(name)
+      self.each.sort do {|name| a <=> b}
+      
+    end 
     
     def self.find_by_name(name)
       self.all.find {|person| person.name == name}
